@@ -51,7 +51,3 @@ for i in range(1,len(list)):
     elif secsmall>list[1] and max!=list[1]:
         secsmall=list[i]
 print("Smallest value",small , "secsamll value", secsmall)          
-    
-        
-                
-                

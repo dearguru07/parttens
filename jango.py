@@ -1,4 +1,4 @@
-
+'''
 import time
 class demo:
     def PrintNames(self):
@@ -38,3 +38,9 @@ d.add()
 # d.Printnum()
 # d.add()
 
+'''
+
+
+print(5)
+print(6 ,end=" ")
+print(7)
