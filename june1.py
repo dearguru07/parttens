@@ -5,14 +5,13 @@ def happyNum(n):
         return 'UnHappy Number'
     sum=0
     while n>0:
-       rem=n%10
-       sum=sum+rem*rem
+       remainder=n%10
+       sum=sum+remainder*remainder
        n=n//10
     return happyNum(sum)
 n=int(input('enter a number : '))
 res=happyNum(n)
 print(res)
-
 
 
 # print(1)

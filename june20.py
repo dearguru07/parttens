@@ -20,4 +20,7 @@ while i<len(x) and j<len(y):
 while j<len(y):
     result.append(y[j])
     j+=1
-print(result)                  
+print(result)
+
+
+
